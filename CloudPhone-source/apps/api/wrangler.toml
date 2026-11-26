@@ -1,0 +1,21 @@
+name = "cloudphone"
+main = "src/index.ts"
+compatibility_date = "2025-06-17"
+
+[assets]
+directory = "../web/dist"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cloudphone"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+# Tùy chọn cho BIX Cloudflare AI. Tạo chỉ mục riêng trước khi thêm binding vào cấu hình.
+# [ai]
+# binding = "AI"
+#
+# [[vectorize]]
+# binding = "VECTORIZE"
+# index_name = "cloudphone-index"
