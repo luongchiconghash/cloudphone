@@ -10,7 +10,7 @@ run_worker_first = ["/api/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "cloudphone"
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "32ace98f-9971-45ac-883f-88ee0c54fcaa"
 
 # Tùy chọn cho BIX Cloudflare AI. Tạo chỉ mục riêng trước khi thêm binding vào cấu hình.
 # [ai]
